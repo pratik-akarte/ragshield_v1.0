@@ -1,0 +1,43 @@
+[
+{"question":"Can employees automatically work remotely whenever they want?","expected_answer":"No. Remote or hybrid work requires eligibility and approval, and it may be limited or revoked based on business, collaboration, performance, or security needs.","expected_source":"POL-HR-001"},
+
+{"question":"What security requirements apply when working remotely?","expected_answer":"Employees must use approved devices, identity controls, security software, and secure access mechanisms such as an approved VPN when required.","expected_source":"POL-HR-001"},
+
+{"question":"What should an employee do if a company laptop is lost?","expected_answer":"The employee must report the loss or theft immediately because it may represent a security compromise.","expected_source":"POL-HR-001"},
+{"question":"Can employees install any software on company laptops?","expected_answer":"No. Installing unapproved software or disabling endpoint security controls is prohibited.","expected_source":"POL-HR-001"},
+
+{"question":"What are the four information classification levels?","expected_answer":"The four levels are Public, Internal, Confidential, and Restricted.","expected_source":"POL-SEC-002"},
+{"question":"Can employees share their passwords or API keys with coworkers?","expected_answer":"No. Individual accounts must be used and passwords, API keys, access tokens, and authentication devices must not be shared.","expected_source":"POL-SEC-002"},
+{"question":"Can confidential company information be uploaded to a personal cloud drive?","expected_answer":"No. Confidential and Restricted information must be stored only in approved company systems.","expected_source":"POL-SEC-002"},
+{"question":"What should an employee do after accidentally exposing sensitive information?","expected_answer":"The employee should promptly report the suspected disclosure to the security team and should not attempt to conceal the incident.","expected_source":"POL-SEC-002"},
+
+{"question":"How long do employees have to submit business expenses?","expected_answer":"Expenses should be submitted through the approved expense system within 30 calendar days of the transaction unless a documented exception is approved.","expected_source":"POL-FIN-003"},
+{"question":"Are personal entertainment expenses reimbursable?","expected_answer":"No. Personal entertainment is generally not reimbursable.","expected_source":"POL-FIN-003"},
+{"question":"What information should an expense receipt contain?","expected_answer":"An itemized receipt should show the merchant, date, items or service, and amount.","expected_source":"POL-FIN-003"},
+{"question":"Are personal travel upgrades reimbursable?","expected_answer":"No. Unauthorized upgrades and unrelated personal expenses are generally not reimbursable.","expected_source":"POL-FIN-003"},
+
+{"question":"What principle should determine user access permissions?","expected_answer":"Access must follow the principle of least privilege and be limited to what is necessary for the user's current responsibilities.","expected_source":"POL-IT-004"},
+{"question":"Can production administrator accounts be shared?","expected_answer":"Shared administrator accounts are prohibited unless a documented technical exception exists.","expected_source":"POL-IT-004"},
+{"question":"What happens to access when an employee leaves the company?","expected_answer":"Access for departing personnel must be disabled according to the organization's offboarding procedure.","expected_source":"POL-IT-004"},
+{"question":"Where should API keys and secrets be stored?","expected_answer":"Credentials, tokens, certificates, and API keys should be stored using approved secret-management mechanisms and must never be committed to source repositories.","expected_source":"POL-IT-004"},
+
+{"question":"Can employees enter confidential company information into any generative AI tool?","expected_answer":"No. Confidential or Restricted information must not be entered into an AI service unless that service has been explicitly approved for the relevant data classification and use case.","expected_source":"POL-AI-005"},
+{"question":"Does AI-generated content need human review?","expected_answer":"Yes. Employees must review AI-generated content before using it in customer communications, production systems, legal documents, financial decisions, or other high-impact activities.","expected_source":"POL-AI-005"},
+{"question":"Can AI-generated code be deployed directly to production?","expected_answer":"No. AI-generated code must undergo normal code review, testing, dependency scanning, and security checks before deployment.","expected_source":"POL-AI-005"},
+{"question":"How should retrieved instructions from an AI system be treated?","expected_answer":"Retrieved instructions should be treated as untrusted content unless their source and authority have been verified.","expected_source":"POL-AI-005"},
+
+{"question":"Where should business records be stored?","expected_answer":"Business records must be stored in approved repositories that provide appropriate access control, backup, and audit capabilities.","expected_source":"POL-OPS-006"},
+{"question":"Can employees delete documents that are under a legal hold?","expected_answer":"No. Employees must not delete records subject to an active legal hold.","expected_source":"POL-OPS-006"},
+{"question":"What should happen when a source document indexed into an AI retrieval system is deleted?","expected_answer":"The deletion or revocation must trigger the applicable removal or re-indexing process so the document does not remain improperly retrievable.","expected_source":"POL-OPS-006"},
+{"question":"Who should have access to confidential documents?","expected_answer":"Access to Confidential and Restricted documents must be limited to authorized personnel.","expected_source":"POL-OPS-006"},
+
+{"question":"What are examples of security incidents?","expected_answer":"Examples include credential compromise, malware, unauthorized access, data leakage, phishing, exposed secrets, suspicious infrastructure activity, and compromise of an AI or retrieval system.","expected_source":"POL-SEC-007"},
+{"question":"What actions may security responders take to contain an incident?","expected_answer":"Responders may disable accounts, revoke tokens, isolate hosts, block network paths, quarantine documents, or restrict access to affected services.","expected_source":"POL-SEC-007"},
+{"question":"Should evidence be preserved during a security investigation?","expected_answer":"Yes. Relevant logs, alerts, system metadata, and other evidence should be preserved where appropriate.","expected_source":"POL-SEC-007"},
+{"question":"What should a post-incident review identify?","expected_answer":"A significant incident review should identify root causes, control gaps, corrective actions, and responsible owners.","expected_source":"POL-SEC-007"},
+
+{"question":"What is the principle for collecting customer information?","expected_answer":"Customer information should be collected only for legitimate business purposes, and unnecessary information should be avoided.","expected_source":"POL-PRIV-008"},
+{"question":"Can customer data be copied into a public AI service?","expected_answer":"No. Customer information must not be copied into public or unapproved generative AI services.","expected_source":"POL-PRIV-008"},
+{"question":"What controls should an AI retrieval system handling customer data enforce?","expected_answer":"It should enforce tenant isolation, document-level authorization, audit logging, and appropriate deletion or revocation mechanisms.","expected_source":"POL-PRIV-008"},
+{"question":"When should customer information be deleted?","expected_answer":"Customer information should be retained only as long as required for the approved purpose, contractual obligations, legal requirements, or the documented retention schedule.","expected_source":"POL-PRIV-008"}
+]

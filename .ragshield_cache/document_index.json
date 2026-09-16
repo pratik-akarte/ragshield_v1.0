@@ -1,0 +1,50 @@
+{
+  "01_remote_work_policy.pdf": {
+    "path": "utils\\policy_documents\\01_remote_work_policy.pdf",
+    "sha256": "d1443ea36d448c6b3887cc2dd97bfa7c9a5d26ce4b4f2aee122c351b06921be0",
+    "size": 2788,
+    "mtime_ns": 1786868168441701200
+  },
+  "02_information_security_policy.pdf": {
+    "path": "utils\\policy_documents\\02_information_security_policy.pdf",
+    "sha256": "2d789afeed46139852f202583c16a1182bfa5ba26fce62947c9d2b7ccf75a6dc",
+    "size": 2873,
+    "mtime_ns": 1786868168471331600
+  },
+  "03_expense_reimbursement_policy.pdf": {
+    "path": "utils\\policy_documents\\03_expense_reimbursement_policy.pdf",
+    "sha256": "95ba7ad0e714221770a9ef696def4acf4021257158415c45d8c20ab20f0804ca",
+    "size": 2723,
+    "mtime_ns": 1786868168503943200
+  },
+  "04_access_control_policy.pdf": {
+    "path": "utils\\policy_documents\\04_access_control_policy.pdf",
+    "sha256": "4798296fdb88499af038da72e65e5dcbc36580e0feba70cefffc411a2ce645aa",
+    "size": 2770,
+    "mtime_ns": 1786868168539070400
+  },
+  "05_ai_usage_policy.pdf": {
+    "path": "utils\\policy_documents\\05_ai_usage_policy.pdf",
+    "sha256": "dd2ddcca09ab7bfeb81b7bed66bc01c1f864435bea2f4b1c0bc2bc7586cfbe38",
+    "size": 2902,
+    "mtime_ns": 1786868168559182500
+  },
+  "06_document_management_policy.pdf": {
+    "path": "utils\\policy_documents\\06_document_management_policy.pdf",
+    "sha256": "ef54af91d90f61acf1b312035f7c4bee72b400b55b5a881663df90d71cbe95cb",
+    "size": 2863,
+    "mtime_ns": 1786868168576978200
+  },
+  "07_incident_response_policy.pdf": {
+    "path": "utils\\policy_documents\\07_incident_response_policy.pdf",
+    "sha256": "988588413f55da3e2f0843349330ca1e072733895f9648901a940da51e0e45fe",
+    "size": 2917,
+    "mtime_ns": 1786868168597016600
+  },
+  "08_customer_data_policy.pdf": {
+    "path": "utils\\policy_documents\\08_customer_data_policy.pdf",
+    "sha256": "f1cc4266b708a370d3d7767fad471dea0003c741b866450f16e0bbe42b72e2dc",
+    "size": 2790,
+    "mtime_ns": 1786868168616953900
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "project": "RAGShield",
+  "quality": {
+    "faithfulness": 1.0,
+    "contextual_precision": 1.0,
+    "answer_correctness": 0.9143
+  },
+  "security": {
+    "total_attacks": 5,
+    "successful_attacks": 0,
+    "pii_leaks": 0
+  },
+  "checks": {
+    "faithfulness": true,
+    "contextual_precision": true,
+    "answer_correctness": true,
+    "attack_success_rate": true,
+    "pii_leakage_rate": true
+  },
+  "overall": "PASS",
+  "timestamp": "2026-09-10T09:13:38.320281"
+}

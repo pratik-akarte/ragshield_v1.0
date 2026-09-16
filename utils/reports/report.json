@@ -1,0 +1,179 @@
+{
+  "summary": {
+    "Faithfulness": {
+      "average_score": 1.0,
+      "n": 7
+    },
+    "Contextual Precision": {
+      "average_score": 1.0,
+      "n": 7
+    },
+    "Answer Correctness [GEval]": {
+      "average_score": 0.9143,
+      "n": 7
+    }
+  },
+  "per_case": [
+    {
+      "input": "Can employees automatically work remotely whenever they want?",
+      "actual_output": "No, employees cannot automatically work remotely whenever they want. Eligibility does not create an automatic entitlement and requires a request and manager approval.",
+      "expected_source": "POL-HR-001",
+      "citations": "01_remote_work_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node provides a clear and direct answer to the query, ensuring the most relevant information is ranked at the very top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 0.7,
+          "reason": "The actual output correctly identifies that remote work is not an automatic entitlement and requires approval. However, it omits the specific conditions mentioned in the expected output, such as business, collaboration, performance, or security needs, which are key factors for limiting or revoking remote work.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "What security requirements apply when working remotely?",
+      "actual_output": "Company systems must be accessed only through approved devices, identity controls, and security software. Additionally, confidential information must be protected from unauthorized observation and approved VPN or secure access mechanisms must be used when required.",
+      "expected_source": "POL-HR-001",
+      "citations": "01_remote_work_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node perfectly addresses the security requirements for remote work, ensuring the most relevant information is ranked at the very top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "reason": "The actual output accurately captures all the core requirements mentioned in the expected output, including the use of approved devices, identity controls, security software, and VPNs. It maintains semantic equivalence while providing a slightly more detailed explanation of the security context.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "What should an employee do if a company laptop is lost?",
+      "actual_output": "Employees must report the loss, theft, or suspected compromise of company-issued equipment immediately. Additionally, lost devices must be reported promptly to the security team.",
+      "expected_source": "POL-HR-001",
+      "citations": "01_remote_work_policy.pdf page 0, 02_information_security_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node provides the exact procedure for reporting a lost laptop, ensuring the most relevant information is perfectly positioned at the top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 0.8,
+          "reason": "The actual output is factually consistent with the expected output regarding the requirement to report loss or theft. However, it introduces redundant information by creating a distinction between reporting to the company and reporting to the security team, which was not present in the expected output.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "Can employees install any software on company laptops?",
+      "actual_output": "No, employees are prohibited from installing unapproved software on company-issued laptops. Additionally, installing unapproved software or disabling endpoint security controls is explicitly forbidden.",
+      "expected_source": "POL-HR-001",
+      "citations": "01_remote_work_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node provides a clear and direct answer to the user's question, ensuring the most relevant information is ranked at the very top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "reason": "The actual output is factually consistent and semantically equivalent to the expected output. It correctly identifies the prohibition of unapproved software and endpoint security tampering, maintaining the core meaning despite minor phrasing differences.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "What are the four information classification levels?",
+      "actual_output": "The four information classification levels are Public, Internal, Confidential, and Restricted. Information must be classified into one of these categories before storing, transmitting, or sharing.",
+      "expected_source": "POL-SEC-002",
+      "citations": "02_information_security_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node perfectly identifies the four information classification levels, providing a complete and accurate answer right at the top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "reason": "The actual output correctly identifies the four classification levels as specified in the expected output. While it includes additional context regarding the handling of information, this information is factually consistent and does not contradict the core requirements.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "Can employees share their passwords or API keys with coworkers?",
+      "actual_output": "No, employees must use individual accounts and are strictly prohibited from sharing passwords, API keys, access tokens, or authentication devices. Source: 02_information_security_policy.pdf page 0",
+      "expected_source": "POL-SEC-002",
+      "citations": "02_information_security_policy.pdf page 0",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node provides a clear and direct answer to the user's question, ensuring the most relevant information is ranked at the very top!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 0.9,
+          "reason": "The actual output accurately reflects the core meaning of the expected output, confirming that individual accounts are required and sharing credentials is prohibited. It is factually consistent, though it includes an unnecessary source citation not present in the expected output.",
+          "success": true
+        }
+      }
+    },
+    {
+      "input": "Can confidential company information be uploaded to a personal cloud drive?",
+      "actual_output": "No, confidential information must be stored only in approved company systems and must not be uploaded to personal cloud storage. Citations: [02_information_security_policy.pdf page 0]",
+      "expected_source": "POL-SEC-002",
+      "citations": "[02_information_security_policy.pdf page 0]",
+      "metrics": {
+        "Faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, demonstrating excellent accuracy and consistency!",
+          "success": true
+        },
+        "Contextual Precision": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the first node provides a clear and direct answer to the query, perfectly capturing the policy against using personal cloud storage for confidential information!",
+          "success": true
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "reason": "The actual output accurately reflects the core meaning of the expected output while providing additional context regarding personal cloud storage that remains consistent with the provided policy citation.",
+          "success": true
+        }
+      }
+    }
+  ]
+}

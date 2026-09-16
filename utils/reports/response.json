@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Can employees automatically work remotely whenever they want?",
+    "expected_answer": "No. Remote or hybrid work requires eligibility and approval, and it may be limited or revoked based on business, collaboration, performance, or security needs.",
+    "expected_source": "POL-HR-001",
+    "response": {
+      "query": "Can employees automatically work remotely whenever they want?",
+      "answer": "No, employees cannot automatically work remotely whenever they want. Eligibility does not create an automatic entitlement and requires a request and manager approval.",
+      "context": "Employees may request remote or hybrid work when their role can be performed effectively outside the office. Eligibility does not create an automatic entitlement.",
+      "citations": "01_remote_work_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "What security requirements apply when working remotely?",
+    "expected_answer": "Employees must use approved devices, identity controls, security software, and secure access mechanisms such as an approved VPN when required.",
+    "expected_source": "POL-HR-001",
+    "response": {
+      "query": "What security requirements apply when working remotely?",
+      "answer": "Company systems must be accessed only through approved devices, identity controls, and security software. Additionally, confidential information must be protected from unauthorized observation and approved VPN or secure access mechanisms must be used when required.",
+      "context": "Company systems must be accessed only through approved devices, identity controls, and security software. Confidential information must not be displayed or discussed where unauthorized people can observe or hear it. Employees must use approved VPN or secure access mechanisms when required.",
+      "citations": "01_remote_work_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "What should an employee do if a company laptop is lost?",
+    "expected_answer": "The employee must report the loss or theft immediately because it may represent a security compromise.",
+    "expected_source": "POL-HR-001",
+    "response": {
+      "query": "What should an employee do if a company laptop is lost?",
+      "answer": "Employees must report the loss, theft, or suspected compromise of company-issued equipment immediately. Additionally, lost devices must be reported promptly to the security team.",
+      "context": "Employees must report loss, theft, or suspected compromise immediately. Suspected phishing, accidental disclosure, lost devices, exposed credentials, malware, or unauthorized access must be reported to the security team promptly.",
+      "citations": "01_remote_work_policy.pdf page 0, 02_information_security_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "Can employees install any software on company laptops?",
+    "expected_answer": "No. Installing unapproved software or disabling endpoint security controls is prohibited.",
+    "expected_source": "POL-HR-001",
+    "response": {
+      "query": "Can employees install any software on company laptops?",
+      "answer": "No, employees are prohibited from installing unapproved software on company-issued laptops. Additionally, installing unapproved software or disabling endpoint security controls is explicitly forbidden.",
+      "context": "Installing unapproved software or disabling endpoint security controls is prohibited.",
+      "citations": "01_remote_work_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "What are the four information classification levels?",
+    "expected_answer": "The four levels are Public, Internal, Confidential, and Restricted.",
+    "expected_source": "POL-SEC-002",
+    "response": {
+      "query": "What are the four information classification levels?",
+      "answer": "The four information classification levels are Public, Internal, Confidential, and Restricted. Information must be classified into one of these categories before storing, transmitting, or sharing.",
+      "context": "Information must be classified as Public, Internal, Confidential, or Restricted. Restricted information includes credentials, security keys, sensitive customer information, and regulated data. Classification must be considered before storing, transmitting, or sharing information.",
+      "citations": "02_information_security_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "Can employees share their passwords or API keys with coworkers?",
+    "expected_answer": "No. Individual accounts must be used and passwords, API keys, access tokens, and authentication devices must not be shared.",
+    "expected_source": "POL-SEC-002",
+    "response": {
+      "query": "Can employees share their passwords or API keys with coworkers?",
+      "answer": "No, employees must use individual accounts and are strictly prohibited from sharing passwords, API keys, access tokens, or authentication devices. Source: 02_information_security_policy.pdf page 0",
+      "context": "Employees must use individual accounts and must not share passwords, API keys, access tokens, or authentication devices.",
+      "citations": "02_information_security_policy.pdf page 0"
+    }
+  },
+  {
+    "question": "Can confidential company information be uploaded to a personal cloud drive?",
+    "expected_answer": "No. Confidential and Restricted information must be stored only in approved company systems.",
+    "expected_source": "POL-SEC-002",
+    "response": {
+      "query": "Can confidential company information be uploaded to a personal cloud drive?",
+      "answer": "No, confidential information must be stored only in approved company systems and must not be uploaded to personal cloud storage. Citations: [02_information_security_policy.pdf page 0]",
+      "context": "Confidential and Restricted information must be stored only in approved company systems. Sensitive files must not be uploaded to personal cloud storage or unapproved AI tools.",
+      "citations": "[02_information_security_policy.pdf page 0]"
+    }
+  }
+]
